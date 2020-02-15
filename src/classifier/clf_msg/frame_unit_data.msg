@@ -1,0 +1,30 @@
+# DataFrame
+# sequence ID: consecutively increasing ID 
+# uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')
+# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')
+# time-handling sugar is provided by the client library
+# time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+# string frame_id
+
+# imu data
+sensor_msgs/Imu IMU1
+float64 velocity1x
+float64 velocity1y
+float64 velocity1z
+
+sensor_msgs/Imu IMU2
+float64 velocity2x
+float64 velocity2y
+float64 velocity2z
+
+sensor_msgs/Imu IMU3
+float64 velocity3x
+float64 velocity3y
+float64 velocity3z
+
+### other sensors ###
