@@ -1,0 +1,1 @@
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc

@@ -1,0 +1,4 @@
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig.cmake
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig-version.cmake
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/lib/librviz_imu_plugin.so
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/lib/pkgconfig/rviz_imu_plugin.pc

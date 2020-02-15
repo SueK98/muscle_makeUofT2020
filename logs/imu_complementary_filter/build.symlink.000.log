@@ -1,0 +1,5 @@
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/lib/libcomplementary_filter.so
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/lib/imu_complementary_filter/complementary_filter_node
+Symlinking /home/aghosh/makeUofT2020/catkin_ws/devel/lib/pkgconfig/imu_complementary_filter.pc

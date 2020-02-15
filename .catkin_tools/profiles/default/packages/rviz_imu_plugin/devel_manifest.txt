@@ -1,0 +1,6 @@
+imu_tools/rviz_imu_plugin
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/cmake.lock /home/aghosh/makeUofT2020/catkin_ws/devel/./cmake.lock
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig.cmake /home/aghosh/makeUofT2020/catkin_ws/devel/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig.cmake
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig-version.cmake /home/aghosh/makeUofT2020/catkin_ws/devel/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig-version.cmake
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so /home/aghosh/makeUofT2020/catkin_ws/devel/lib/librviz_imu_plugin.so
+/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/pkgconfig/rviz_imu_plugin.pc /home/aghosh/makeUofT2020/catkin_ws/devel/lib/pkgconfig/rviz_imu_plugin.pc
