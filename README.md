@@ -1,5 +1,5 @@
 # Physio T
-''' Created at MakeUofT 2020 - 1st Place Overall '''
+> Created at MakeUofT 2020 - 1st Place Overall
 
 ## Inspiration
 Physiotherapy is expensive for what it provides you with, A therapist stepping you through simple exercises and giving feedback and evaluation? WE CAN TOTALLY AUTOMATE THAT! We are undergoing the 4th industrial revolution and technology exists to help people in need of medical aid despite not having the time and money to see a real therapist every week.
