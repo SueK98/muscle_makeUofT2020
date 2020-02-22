@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _clf_msg_generate_messages_check_deps_Frame_unit_data[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _clf_msg_generate_messages_check_deps_Frame_unit_data
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target clf_msg_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target clf_msg_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target clf_msg_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[ 14%] [34m[1mGenerating EusLisp code from clf_msg/Frame_unit_data.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from clf_msg/Frame_unit_data.msg[0m
+[ 42%] [34m[1mGenerating C++ code from clf_msg/Frame_unit_data.msg[0m
+[35m[1mScanning dependencies of target clf_msg_generate_messages_py[0m
+[ 57%] [34m[1mGenerating EusLisp manifest code for clf_msg[0m
+[ 71%] [34m[1mGenerating Python from MSG clf_msg/Frame_unit_data[0m
+[ 71%] Built target clf_msg_generate_messages_lisp
+[35m[1mScanning dependencies of target clf_msg_generate_messages_nodejs[0m
+[ 85%] [34m[1mGenerating Javascript code from clf_msg/Frame_unit_data.msg[0m
+WARNING: Metapackage "clf_msg" should not have other dependencies besides a buildtool_depend on catkin and run_depends.
+[ 85%] Built target clf_msg_generate_messages_nodejs
+[100%] [34m[1mGenerating Python msg __init__.py for clf_msg[0m
+[100%] Built target clf_msg_generate_messages_cpp
+[100%] Built target clf_msg_generate_messages_py
+WARNING: Metapackage "clf_msg" should not have other dependencies besides a buildtool_depend on catkin and run_depends.
+[100%] Built target clf_msg_generate_messages_eus
+[35m[1mScanning dependencies of target clf_msg_generate_messages[0m
+[100%] Built target clf_msg_generate_messages

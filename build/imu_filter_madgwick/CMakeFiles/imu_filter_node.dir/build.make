@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick
+CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick
+CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imu_filter_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/imu_filter_node.dir/progress.make
 include CMakeFiles/imu_filter_node.dir/flags.make
 
 CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o: CMakeFiles/imu_filter_node.dir/flags.make
-CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o: /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
+CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
 
 CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp > CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp > CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.i
 
 CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp -o CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp -o CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.s
 
 CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o.requires:
 
@@ -88,69 +88,69 @@ imu_filter_node_OBJECTS = \
 # External object files for target imu_filter_node
 imu_filter_node_EXTERNAL_OBJECTS =
 
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/build.make
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/libimu_filter.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/liborocos-kdl.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libactionlib.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libtf2.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libnodeletlib.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libbondcpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libclass_loader.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/libPocoFoundation.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroslib.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librospack.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librostime.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librostime.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node"
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/build.make
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/libimu_filter.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/liborocos-kdl.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libactionlib.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libtf2.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libnodeletlib.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libbondcpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libclass_loader.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/libPocoFoundation.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroslib.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librospack.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librostime.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/librostime.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node: CMakeFiles/imu_filter_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imu_filter_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/imu_filter_node.dir/build: /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node
+CMakeFiles/imu_filter_node.dir/build: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/lib/imu_filter_madgwick/imu_filter_node
 
 .PHONY : CMakeFiles/imu_filter_node.dir/build
 
@@ -163,6 +163,6 @@ CMakeFiles/imu_filter_node.dir/clean:
 .PHONY : CMakeFiles/imu_filter_node.dir/clean
 
 CMakeFiles/imu_filter_node.dir/depend:
-	cd /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles/imu_filter_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles/imu_filter_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imu_filter_node.dir/depend
 

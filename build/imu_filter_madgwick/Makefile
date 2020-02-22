@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick
+CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick
+CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

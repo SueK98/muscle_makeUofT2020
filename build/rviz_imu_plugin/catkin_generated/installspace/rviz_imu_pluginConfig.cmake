@@ -67,14 +67,14 @@ set(rviz_imu_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_imu_plugin_SOURCE_PREFIX /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin)
-  set(rviz_imu_plugin_DEVEL_PREFIX /home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin)
+  set(rviz_imu_plugin_SOURCE_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin)
+  set(rviz_imu_plugin_DEVEL_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin)
   set(rviz_imu_plugin_INSTALL_PREFIX "")
   set(rviz_imu_plugin_PREFIX ${rviz_imu_plugin_DEVEL_PREFIX})
 else()
   set(rviz_imu_plugin_SOURCE_PREFIX "")
   set(rviz_imu_plugin_DEVEL_PREFIX "")
-  set(rviz_imu_plugin_INSTALL_PREFIX /home/aghosh/makeUofT2020/catkin_ws/install)
+  set(rviz_imu_plugin_INSTALL_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/install)
   set(rviz_imu_plugin_PREFIX ${rviz_imu_plugin_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/aghosh/makeUofT2020/catkin_ws/install/lib;/home/aghosh/makeUofT2020/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/aghosh/makeUofT2020/muscle_makeUofT2020/install/lib;/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/lib;/home/aghosh/makeUofT2020/catkin_ws/devel/lib;/home/aghosh/makeUofT2020/frank_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

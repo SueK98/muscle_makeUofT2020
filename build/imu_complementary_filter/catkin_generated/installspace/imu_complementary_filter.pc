@@ -1,4 +1,4 @@
-prefix=/home/aghosh/makeUofT2020/catkin_ws/install
+prefix=/home/aghosh/makeUofT2020/muscle_makeUofT2020/install
 
 Name: imu_complementary_filter
 Description: Description of imu_complementary_filter

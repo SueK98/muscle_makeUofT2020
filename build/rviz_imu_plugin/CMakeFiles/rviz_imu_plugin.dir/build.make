@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin
+CMAKE_SOURCE_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin
+CMAKE_BINARY_DIR = /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rviz_imu_plugin.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rviz_imu_plugin.dir/progress.make
 include CMakeFiles/rviz_imu_plugin.dir/flags.make
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o: CMakeFiles/rviz_imu_plugin.dir/flags.make
-CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o: /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp
+CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.i
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.s
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o: CMakeFiles/rviz_imu_plugin.dir/flags.make
-CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o: /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp
+CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.i
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.s
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o.provides.build: 
 
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o: CMakeFiles/rviz_imu_plugin.dir/flags.make
-CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o: /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp
+CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.i
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.s
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o: CMakeFiles/rviz_imu_plugin.dir/flags.make
-CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o: /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp
+CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp > CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.i
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp -o CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.s
 
 CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o: CMakeFiles/rviz_imu_plugin.dir/flags.make
 CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o: rviz_imu_plugin_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o -c /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp
 
 CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp > CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp > CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp -o CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp -o CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o.requires:
 
@@ -188,69 +188,69 @@ rviz_imu_plugin_OBJECTS = \
 # External object files for target rviz_imu_plugin
 rviz_imu_plugin_EXTERNAL_OBJECTS =
 
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/build.make
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librviz.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libGL.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libimage_transport.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libinteractive_markers.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/liblaser_geometry.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/libPocoFoundation.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libresource_retriever.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroslib.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librospack.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libactionlib.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf2.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/liburdf.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroscpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librostime.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so"
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/build.make
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librviz.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libGL.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libimage_transport.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libinteractive_markers.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/liblaser_geometry.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/libPocoFoundation.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libresource_retriever.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroslib.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librospack.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libactionlib.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libtf2.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/liburdf.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroscpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/librostime.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so: CMakeFiles/rviz_imu_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rviz_imu_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rviz_imu_plugin.dir/build: /home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so
+CMakeFiles/rviz_imu_plugin.dir/build: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/lib/librviz_imu_plugin.so
 
 .PHONY : CMakeFiles/rviz_imu_plugin.dir/build
 
@@ -267,6 +267,6 @@ CMakeFiles/rviz_imu_plugin.dir/clean:
 .PHONY : CMakeFiles/rviz_imu_plugin.dir/clean
 
 CMakeFiles/rviz_imu_plugin.dir/depend:
-	cd /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/rviz_imu_plugin /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/rviz_imu_plugin /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rviz_imu_plugin.dir/depend
 

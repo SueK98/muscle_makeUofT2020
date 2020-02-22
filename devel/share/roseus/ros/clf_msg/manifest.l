@@ -1,0 +1,1 @@
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/clf_msg/share/roseus/ros/clf_msg/manifest.l

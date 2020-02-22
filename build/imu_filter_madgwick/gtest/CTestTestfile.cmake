@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/aghosh/makeUofT2020/catkin_ws/build/imu_filter_madgwick/gtest
+# Build directory: /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_filter_madgwick/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -67,14 +67,14 @@ set(imu_complementary_filter_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(imu_complementary_filter_SOURCE_PREFIX /home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter)
-  set(imu_complementary_filter_DEVEL_PREFIX /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_complementary_filter)
+  set(imu_complementary_filter_SOURCE_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter)
+  set(imu_complementary_filter_DEVEL_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_complementary_filter)
   set(imu_complementary_filter_INSTALL_PREFIX "")
   set(imu_complementary_filter_PREFIX ${imu_complementary_filter_DEVEL_PREFIX})
 else()
   set(imu_complementary_filter_SOURCE_PREFIX "")
   set(imu_complementary_filter_DEVEL_PREFIX "")
-  set(imu_complementary_filter_INSTALL_PREFIX /home/aghosh/makeUofT2020/catkin_ws/install)
+  set(imu_complementary_filter_INSTALL_PREFIX /home/aghosh/makeUofT2020/muscle_makeUofT2020/install)
   set(imu_complementary_filter_PREFIX ${imu_complementary_filter_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(imu_complementary_filter_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/include " STREQUAL " ")
+if(NOT "/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/include " STREQUAL " ")
   set(imu_complementary_filter_INCLUDE_DIRS "")
-  set(_include_dirs "/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/include")
+  set(_include_dirs "/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.mdpi.com/1424-8220/15/8/19302 " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filt
         message(FATAL_ERROR "Project 'imu_complementary_filter' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'imu_complementary_filter' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'imu_complementary_filter' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/${idir}'.  ${_report}")
     endif()
     _list_append_unique(imu_complementary_filter_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_complementary_filter/lib;/home/aghosh/makeUofT2020/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_complementary_filter/lib;/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/lib;/home/aghosh/makeUofT2020/catkin_ws/devel/lib;/home/aghosh/makeUofT2020/frank_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

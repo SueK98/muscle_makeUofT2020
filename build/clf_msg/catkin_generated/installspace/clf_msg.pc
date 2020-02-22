@@ -1,0 +1,8 @@
+prefix=/home/aghosh/makeUofT2020/muscle_makeUofT2020/install
+
+Name: clf_msg
+Description: Description of clf_msg
+Version: 1.2.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lclf_msg
+Requires: message_runtime rospy std_msgs sensor_msgs

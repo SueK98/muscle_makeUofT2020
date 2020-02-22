@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/aghosh/makeUofT2020/catkin_ws/build/imu_complementary_filter/gtest/googlemock
+# Build directory: /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/imu_complementary_filter/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

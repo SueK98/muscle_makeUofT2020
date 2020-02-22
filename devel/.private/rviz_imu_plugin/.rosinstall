@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/aghosh/makeUofT2020/catkin_ws/devel/.private/rviz_imu_plugin/setup.sh
+    local-name: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/rviz_imu_plugin/setup.sh

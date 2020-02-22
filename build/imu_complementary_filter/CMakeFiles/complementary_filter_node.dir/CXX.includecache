@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
 sensor_msgs/MagneticField.h
 -
 geometry_msgs/Vector3Stamped.h
@@ -28,11 +28,11 @@ tf/transform_datatypes.h
 tf/transform_broadcaster.h
 -
 imu_complementary_filter/complementary_filter.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/imu_complementary_filter/complementary_filter.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/include/imu_complementary_filter/imu_complementary_filter/complementary_filter.h
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/src/complementary_filter_node.cpp
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/src/complementary_filter_node.cpp
 imu_complementary_filter/complementary_filter_ros.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_complementary_filter/src/imu_complementary_filter/complementary_filter_ros.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_complementary_filter/src/imu_complementary_filter/complementary_filter_ros.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

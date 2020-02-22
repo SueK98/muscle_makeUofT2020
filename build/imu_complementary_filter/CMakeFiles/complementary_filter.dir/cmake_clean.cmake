@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o"
   "CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o"
-  "/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_complementary_filter/lib/libcomplementary_filter.pdb"
-  "/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_complementary_filter/lib/libcomplementary_filter.so"
+  "/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_complementary_filter/lib/libcomplementary_filter.pdb"
+  "/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_complementary_filter/lib/libcomplementary_filter.so"
 )
 
 # Per-language clean rules from dependency scanning.

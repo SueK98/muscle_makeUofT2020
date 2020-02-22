@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp
+Change Dir: /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fad60/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fad60.dir/build.make CMakeFiles/cmTC_fad60.dir/build
-make[1]: Entering directory '/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fad60.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_fad60.dir/CheckSymbolExists.c.o   -c /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_fad60
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fad60.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fad60.dir/CheckSymbolExists.c.o  -o cmTC_fad60 
-CMakeFiles/cmTC_fad60.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f1393/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1393.dir/build.make CMakeFiles/cmTC_f1393.dir/build
+make[1]: Entering directory '/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1393.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f1393.dir/CheckSymbolExists.c.o   -c /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f1393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1393.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f1393.dir/CheckSymbolExists.c.o  -o cmTC_f1393 
+CMakeFiles/cmTC_f1393.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fad60.dir/build.make:97: recipe for target 'cmTC_fad60' failed
-make[1]: *** [cmTC_fad60] Error 1
-make[1]: Leaving directory '/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fad60/fast' failed
-make: *** [cmTC_fad60/fast] Error 2
+CMakeFiles/cmTC_f1393.dir/build.make:97: recipe for target 'cmTC_f1393' failed
+make[1]: *** [cmTC_f1393] Error 1
+make[1]: Leaving directory '/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f1393/fast' failed
+make: *** [cmTC_f1393/fast] Error 2
 
-File /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp
+Change Dir: /home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e8ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1e8ad.dir/build.make CMakeFiles/cmTC_1e8ad.dir/build
-make[1]: Entering directory '/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e8ad.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e8ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1e8ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8ad.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1e8ad.dir/CheckFunctionExists.c.o  -o cmTC_1e8ad -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_c7c9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7c9c.dir/build.make CMakeFiles/cmTC_c7c9c.dir/build
+make[1]: Entering directory '/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c7c9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7c9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c9c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c7c9c.dir/CheckFunctionExists.c.o  -o cmTC_c7c9c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1e8ad.dir/build.make:97: recipe for target 'cmTC_1e8ad' failed
-make[1]: *** [cmTC_1e8ad] Error 1
-make[1]: Leaving directory '/home/aghosh/makeUofT2020/catkin_ws/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1e8ad/fast' failed
-make: *** [cmTC_1e8ad/fast] Error 2
+CMakeFiles/cmTC_c7c9c.dir/build.make:97: recipe for target 'cmTC_c7c9c' failed
+make[1]: *** [cmTC_c7c9c] Error 1
+make[1]: Leaving directory '/home/aghosh/makeUofT2020/muscle_makeUofT2020/build/rviz_imu_plugin/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7c9c/fast' failed
+make: *** [cmTC_c7c9c/fast] Error 2
 
 

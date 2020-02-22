@@ -1,0 +1,2 @@
+WARNING: Metapackage "clf_msg" should not have other dependencies besides a buildtool_depend on catkin and run_depends.
+WARNING: Metapackage "clf_msg" should not have other dependencies besides a buildtool_depend on catkin and run_depends.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_filter_madgwick/include/imu_filter_madgwick/ImuFilterMadgwickConfig.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_filter_madgwick/include/imu_filter_madgwick/ImuFilterMadgwickConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter.h
 imu_filter_madgwick/world_frame.h
 -
 iostream
@@ -32,7 +32,7 @@ iostream
 cmath
 -
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_ros.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_ros.h
 ros/ros.h
 -
 sensor_msgs/Imu.h
@@ -42,7 +42,7 @@ sensor_msgs/MagneticField.h
 geometry_msgs/Vector3Stamped.h
 -
 tf2_ros/transform_broadcaster.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/tf2_ros/transform_broadcaster.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/tf2_ros/transform_broadcaster.h
 message_filters/subscriber.h
 -
 message_filters/synchronizer.h
@@ -52,15 +52,15 @@ message_filters/sync_policies/approximate_time.h
 dynamic_reconfigure/server.h
 -
 imu_filter_madgwick/imu_filter.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_madgwick/imu_filter.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_madgwick/imu_filter.h
 imu_filter_madgwick/ImuFilterMadgwickConfig.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_madgwick/ImuFilterMadgwickConfig.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/imu_filter_madgwick/ImuFilterMadgwickConfig.h
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/world_frame.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/include/imu_filter_madgwick/world_frame.h
 
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp
 imu_filter_madgwick/imu_filter_ros.h
-/home/aghosh/makeUofT2020/catkin_ws/src/imu_tools/imu_filter_madgwick/src/imu_filter_madgwick/imu_filter_ros.h
+/home/aghosh/makeUofT2020/muscle_makeUofT2020/src/imu_tools/imu_filter_madgwick/src/imu_filter_madgwick/imu_filter_ros.h
 
 /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 string

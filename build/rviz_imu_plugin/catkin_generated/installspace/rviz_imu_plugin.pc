@@ -1,4 +1,4 @@
-prefix=/home/aghosh/makeUofT2020/catkin_ws/install
+prefix=/home/aghosh/makeUofT2020/muscle_makeUofT2020/install
 
 Name: rviz_imu_plugin
 Description: Description of rviz_imu_plugin

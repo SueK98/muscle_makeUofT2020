@@ -1,6 +1,6 @@
-devel_space: /home/aghosh/makeUofT2020/catkin_ws/devel
+devel_space: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel
 install: false
-install_space: /home/aghosh/makeUofT2020/catkin_ws/install
+install_space: /home/aghosh/makeUofT2020/muscle_makeUofT2020/install
 profile: default
-source_space: /home/aghosh/makeUofT2020/catkin_ws/src
-workspace: /home/aghosh/makeUofT2020/catkin_ws
+source_space: /home/aghosh/makeUofT2020/muscle_makeUofT2020/src
+workspace: /home/aghosh/makeUofT2020/muscle_makeUofT2020

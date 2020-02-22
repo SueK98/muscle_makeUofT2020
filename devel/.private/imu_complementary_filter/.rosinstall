@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/aghosh/makeUofT2020/catkin_ws/devel/.private/imu_complementary_filter/setup.sh
+    local-name: /home/aghosh/makeUofT2020/muscle_makeUofT2020/devel/.private/imu_complementary_filter/setup.sh
